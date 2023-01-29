@@ -1,0 +1,50 @@
+header {
+  font-family: "PT Serif";
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 6%;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 12%;
+}
+
+.statement {
+  font-family: "Poppins", sans-serif;
+  width: 54%;
+}
+
+.title {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text-title {
+  width: 40%;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.name {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+}
